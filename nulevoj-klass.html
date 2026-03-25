@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8">
@@ -351,9 +351,9 @@
         .nk-specialists { margin-bottom: 50px; }
         .nk-specialists-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 30px;
-            max-width: 720px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            max-width: 960px;
             margin: 0 auto;
         }
         .nk-specialist-card {
@@ -411,7 +411,10 @@
         @media (max-width: 900px) {
             .nk-features-grid { grid-template-columns: 1fr; }
             .nk-video-section { flex-direction: column; }
-            .nk-specialists-grid { grid-template-columns: 1fr; max-width: 400px; }
+            .nk-specialists-grid { grid-template-columns: repeat(2, 1fr); max-width: 640px; }
+        }
+        @media (max-width: 600px) and (min-width: 1px) {
+            .nk-specialists-grid { grid-template-columns: 1fr; max-width: 360px; }
         }
         @media (max-width: 600px) {
             .nk-hero h1 { font-size: 28px; }
@@ -617,7 +620,7 @@
                         <span class="nk-program-num">1</span>
                         <div class="nk-program-info">
                             <span class="nk-program-name">Поведение на «5»</span>
-                            <span class="nk-program-spec">Уласовец У.С. &mdash; клинический психолог, АВА-терапист</span>
+                            <span class="nk-program-spec">Кобзева В.С. &mdash; психолог, АВА-терапист</span>
                         </div>
                     </div>
                     <div class="nk-program-right">
@@ -646,7 +649,7 @@
                         <span class="nk-program-num">2</span>
                         <div class="nk-program-info">
                             <span class="nk-program-name">Учимся учиться. Формирование учебных навыков</span>
-                            <span class="nk-program-spec">Уласовец У.С. &mdash; клинический психолог, АВА-терапист</span>
+                            <span class="nk-program-spec">Кобзева В.С. &mdash; психолог, АВА-терапист</span>
                         </div>
                     </div>
                     <div class="nk-program-right">
@@ -677,7 +680,7 @@
                         <span class="nk-program-num">3</span>
                         <div class="nk-program-info">
                             <span class="nk-program-name">«Если с другом вышел в путь». Социализация и коммуникация</span>
-                            <span class="nk-program-spec">Уласовец У.С. &mdash; клинический психолог, АВА-терапист</span>
+                            <span class="nk-program-spec">Рябухина Е.Ю. &mdash; дефектолог, АВА-специалист</span>
                         </div>
                     </div>
                     <div class="nk-program-right">
@@ -706,7 +709,7 @@
                         <span class="nk-program-num">4</span>
                         <div class="nk-program-info">
                             <span class="nk-program-name">Развитие речи и подготовка к обучению грамоте</span>
-                            <span class="nk-program-spec">Шевченко А.В. &mdash; логопед-дефектолог, специалист по подготовке к школе</span>
+                            <span class="nk-program-spec">Радионова С.В. &mdash; логопед-дефектолог, АВА-терапист</span>
                         </div>
                     </div>
                     <div class="nk-program-right">
@@ -737,7 +740,7 @@
                         <span class="nk-program-num">5</span>
                         <div class="nk-program-info">
                             <span class="nk-program-name">Обучение грамоте и элементам письма. Чистописание</span>
-                            <span class="nk-program-spec">Шевченко А.В. &mdash; логопед-дефектолог, специалист по подготовке к школе</span>
+                            <span class="nk-program-spec">Радионова С.В. &mdash; логопед-дефектолог, АВА-терапист</span>
                         </div>
                     </div>
                     <div class="nk-program-right">
@@ -765,7 +768,7 @@
                         <span class="nk-program-num">6</span>
                         <div class="nk-program-info">
                             <span class="nk-program-name">Арифметика</span>
-                            <span class="nk-program-spec">Шевченко А.В. &mdash; логопед-дефектолог, специалист по подготовке к школе</span>
+                            <span class="nk-program-spec">Радионова С.В. &mdash; логопед-дефектолог, АВА-терапист</span>
                         </div>
                     </div>
                     <div class="nk-program-right">
@@ -790,22 +793,31 @@
             <div class="nk-section-title">Наши специалисты</div>
             <div class="nk-section-line brown"></div>
             <div class="nk-specialists-grid">
-                <a href="https://rebus39.ru/specialists/ulasovec.html" class="nk-specialist-card">
-                    <div class="nk-spec-photo">
-                        <img src="https://rebus39.ru/images/specialists/thumb_69047f50a24b0.jpg" alt="Уласовец Ульяна Сергеевна">
-                    </div>
-                    <div class="nk-spec-badge">Клинический психолог</div>
-                    <div class="nk-spec-name">Уласовец Ульяна Сергеевна</div>
-                    <div class="nk-spec-role">АВА-терапист,<br>специалист по туалетному тренингу,<br>координатор филиала</div>
-                    <span class="nk-spec-link">Подробнее &rarr;</span>
-                </a>
                 <a href="https://rebus39.ru/specialists/ryabuhina.html" class="nk-specialist-card">
                     <div class="nk-spec-photo">
                         <img src="https://rebus39.ru/images/specialists/thumb_69047b9f1c420.jpeg" alt="Рябухина Екатерина Юрьевна">
                     </div>
-                    <div class="nk-spec-badge">Специальный психолог</div>
+                    <div class="nk-spec-badge">Дефектолог</div>
                     <div class="nk-spec-name">Рябухина Екатерина Юрьевна</div>
-                    <div class="nk-spec-role">Дефектолог,<br>специалист по PECS,<br>АВА-специалист</div>
+                    <div class="nk-spec-role">АВА-терапист,<br>специалист по PECS,<br>психолог</div>
+                    <span class="nk-spec-link">Подробнее &rarr;</span>
+                </a>
+                <a href="https://rebus39.ru/specialists/kobzevav.html" class="nk-specialist-card">
+                    <div class="nk-spec-photo">
+                        <img src="https://rebus39.ru/images/specialists/thumb_69047fa981508.jpg" alt="Кобзева Виктория Сергеевна">
+                    </div>
+                    <div class="nk-spec-badge">Психолог</div>
+                    <div class="nk-spec-name">Кобзева Виктория Сергеевна</div>
+                    <div class="nk-spec-role">АВА-терапист,<br>специалист по поведенческой терапии,<br>опыт 17 лет</div>
+                    <span class="nk-spec-link">Подробнее &rarr;</span>
+                </a>
+                <a href="https://rebus39.ru/specialists/radionova.html" class="nk-specialist-card">
+                    <div class="nk-spec-photo">
+                        <img src="https://rebus39.ru/images/specialists/thumb_69298f8aa8dbd.jpg" alt="Радионова Светлана Владимировна">
+                    </div>
+                    <div class="nk-spec-badge">Логопед-дефектолог</div>
+                    <div class="nk-spec-name">Радионова Светлана Владимировна</div>
+                    <div class="nk-spec-role">АВА-терапист,<br>подготовка к школе (ОВЗ),<br>специалист по PECS</div>
                     <span class="nk-spec-link">Подробнее &rarr;</span>
                 </a>
             </div>
